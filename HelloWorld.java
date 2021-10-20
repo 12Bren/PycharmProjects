@@ -4,17 +4,24 @@
  */
 package helloworld;
 
+
+
 /**
  *
  * @author b
  */
 public class HelloWorld {
 
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        MainFrame myframe = new MainFrame();
+        myframe.init();
+        
         
         /* = */ byte first = 5;
         /* += */ first += 5; //read as 5+5
