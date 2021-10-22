@@ -96,7 +96,28 @@ website = "http://duckduckgo.com"
 website2 = "http://yourgametwo.com"
 slice = slice(7, -4)  # initializing slice object slice(beginning,end)
 
-print(website[slice]+" "+website2[slice])
+print(website[slice] + " " + website2[slice])
 # if statements
+# age = int(input("how old are you: "))
 
+if 18 <= age <= 30:
+
+    print("Welcome! Your of legal age come on in!")
+elif 18 < age > 0:
+    print("Your underage, your kind isn't welcomed here!")
+elif age < 0:
+    print("Your not born stop lying! What's your real age?: ")
+    age = int(input())
+
+elif age > 120:
+    print("your dead no one lives that long!! Tell me your real age!: ")
+    age = int(input())
+
+elif 57 <= age <= 75:
+    print("Welcome boomer! We love you guys, come on in! ")
+
+elif 76 <= age <= 93 or 94 <= age <= 99:
+    print("Welcome you ol folk! You've seen many things and mny wars. I tilt my hat to you, come one in!")
+# ----------------------------------------------------
+#  while loops
 
