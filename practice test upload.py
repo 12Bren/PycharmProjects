@@ -98,9 +98,9 @@ slice = slice(7, -4)  # initializing slice object slice(beginning,end)
 
 print(website[slice] + " " + website2[slice])
 # if statements
-# age = int(input("how old are you: "))
+age = int(input("how old are you: "))
 
-if 18 <= age <= 30:
+if  18 <= age == 30:
 
     print("Welcome! Your of legal age come on in!")
 elif 18 < age > 0:
