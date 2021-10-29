@@ -100,7 +100,7 @@ print(website[slice] + " " + website2[slice])
 # if statements
 age = int(input("how old are you: "))
 
-if  18 <= age == 30:
+if 18 <= age == 30:
 
     print("Welcome! Your of legal age come on in!")
 elif 18 < age > 0:
@@ -119,5 +119,18 @@ elif 57 <= age <= 75:
 elif 76 <= age <= 93 or 94 <= age <= 99:
     print("Welcome you ol folk! You've seen many things and mny wars. I tilt my hat to you, come one in!")
 # ----------------------------------------------------
-#  while loops
+#  Subscripting: method of pulling out a particular element from a string
+print("Hello"[0])
+# make multiple lines comments Lctrl + /, to undo Lctrl + /
+# power ** 2 to the power of 3 = 8, 2 ** 3 = 8, or 2 * 2 * 2 = 8
+# order of operations (), **, */, +-, Look into PEMDAS
+# floor division 2 // 2 = 1, where 2 / 2 = 1.0, // or flooring it changes it from float to int
+# f-strings instead of using normal concatenation i.e "sawas" + 12, using f strings are more effective,
+# when concatenating using f-strings you can assign multiple data types to onw print statement
+print(f"sakwkdbk {15} hello world {254.35} and something else {True}")
+
+
+
+
+
 

@@ -1,7 +1,7 @@
 import math
 # day one
-print("Hello world \n" * 3)
-print("Hello " + "Bren")
+# print("Hello world \n" * 3)
+# print("Hello " + "Bren")
 # print("what is your name? " + input())
 # Write your code below this line 👇 Assignment 11
 # name = input("what is your name? ")
@@ -25,8 +25,8 @@ print("Hello " + "Bren")
 #Write your code above this line 👆
 ####################################
 # 🚨 Don't change the code below 👇
-print("a: " + "a")
-print("b: " + "b")
+# print("a: " + "a")
+# print("b: " + "b")
 # answer to the teachers hint (If you had a cup of coffie and a glass of milk how would you switch them?)
 # answer: place the contents of one cup into a new cup and do the same for the remaining cup. This will give you 4
 # cups in total. Then switch and place the contents of the opposite cup into the two first cups
@@ -50,32 +50,81 @@ print("b: " + "b")
 # END OF DAY 1:^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 # DAY 2: data types
 # test code final
-print("Welcome to the tip calculator")
-bill = float(input("What was the total bill? $"))
-numberOfPeople = float(input("How many people to split the bill? "))
-tipAmount = float(input("What percentage tip would you like to give? 10, 12, or 15? "))
-offNum = 12, 10, 15
-if tipAmount == 10:
-    billAmount = bill / numberOfPeople
-    tipDivided = tipAmount*billAmount / 100
-    inTotal = round(billAmount + tipDivided, 2)
-    print("Each person should pay: " + "$" + str(inTotal))
-if tipAmount == 12:
-    billAmount = bill / numberOfPeople
-    tipDivided = tipAmount * billAmount / 100
-    inTotal = round(billAmount + tipDivided, 2)
-    print("Each person should pay: " + "$" + str(inTotal))
-if tipAmount == 15:
-    billAmount = bill / numberOfPeople
-    tipDivided = tipAmount * billAmount / 100
-    inTotal = round(billAmount + tipDivided, 2)
-    print("Each person should pay: " + "$" + str(inTotal))
-if tipAmount != offNum:
-    billAmount = bill / numberOfPeople
-    tipDivided = tipAmount * billAmount / 100
-    inTotal = round(billAmount + tipDivided, 2)
-    print("Each person should pay: " + "$" + str(inTotal))
+# print("Welcome to the tip calculator!")
+# bill = float(input("What was the total bill? $"))
+# numberOfPeople = float(input("How many people to split the bill? "))
+# tipAmount = float(input("What percentage tip would you like to give? 10, 12, or 15? "))
+# offNum = [12, 10, 15]
+# billAmount = bill / numberOfPeople
+# tipDivided = tipAmount*billAmount / 100
+# inTotal = round(billAmount + tipDivided, 2)
+# print("Each person should pay: " + "$" + str(inTotal))
+# if tipAmount == 10:
+#     billAmount = bill / numberOfPeople
+#     tipDivided = tipAmount*billAmount / 100
+#     inTotal = round(billAmount + tipDivided, 2)
+#     print("Each person should pay: " + "$" + str(inTotal))
+# if tipAmount == 12:
+#     billAmount = bill / numberOfPeople
+#     tipDivided = tipAmount * billAmount / 100
+#     inTotal = round(billAmount + tipDivided, 2)
+#     print("Each person should pay: " + "$" + str(inTotal))
+# if tipAmount == 15:
+#     billAmount = bill / numberOfPeople
+#     tipDivided = tipAmount * billAmount / 100
+#     inTotal = round(billAmount + tipDivided, 2)
+#     print("Each person should pay: " + "$" + str(inTotal))
+# if tipAmount != offNum[2]:
+#     billAmount = bill / numberOfPeople
+#     tipDivided = tipAmount * billAmount / 100
+#     inTotal = round(billAmount + tipDivided, 2)
+#     print("Each person should pay: " + "$" + str(inTotal))
+# Data Type exercise 2.1: print sum of users 2 digit num
+# 🚨 Don't change the code below 👇
+two_digit_number = input("Type a two digit number: ")
+# 🚨 Don't change the code above 👆
 
-
-
+####################################
+#Write your code below this line 👇
+a = int(two_digit_number)
+if a < 10:
+    a = 0
+    print(a)
+else:
+    add = int(two_digit_number[0]) + int(two_digit_number[1])
+    print(str(add))
+# code challenge operations get 3
+# print((3 * (3 + 3) / 3) - 3)
+# print(2 ** 4)
+# # exercise 2.2 BMI calculator
+# # 🚨 Don't change the code below 👇
+# height = input("enter your height in m: ")
+# weight = input("enter your weight in kg: ")
+# # 🚨 Don't change the code above 👆
+#
+# #Write your code below this line 👇
+# heightsqr = float(height)**2
+# bmi = float(weight) / heightsqr
+# print(f"your BMI is: {round(bmi)}")
+# mop = 3
+# print(f"sakwkdbk {15} hello world {heightsqr} and something else {True}")
+# day 2.3 Life in weeks exercise
+# age = input("What is your current age? ")
+# agee = int(age)
+# daysInYear = 365
+# weeksInYear = 52
+# monthsInYear = 12
+# daysLived = daysInYear * agee
+# weeksLived = weeksInYear * agee
+# monthsLived = monthsInYear * agee
+# daysTill90 = 90 * daysInYear - daysLived
+# weeksTill90 = 90 * weeksInYear - weeksLived
+# monthsTill90 = 90 * monthsInYear - monthsLived
+# yearsTill90 = 90 - agee
+# endOfLife = 120 - agee
+# print(f"you've lived {daysLived} days, {weeksLived} weeks, and {monthsLived} months! \n"
+#       f"you have {daysTill90} days, {weeksTill90} weeks, {monthsTill90} months, and {yearsTill90} years until you reach"
+#       f" the age 90!")
+# Day 2 complete ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# day 3: Conditional Statements, Logical Operators, Code Blocks and Scope
 
